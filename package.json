@@ -1,0 +1,22 @@
+{
+  "name": "neopixel-utils",
+  "version": "1.0.0",
+  "description": "NeoPixel utilities",
+  "dependencies": {
+  	"color-string": ">=1.2.0"
+  },
+  "repository": {
+     "type": "git",
+     "url": "https://github.com/nkolban/node-neopixel-utils.git"
+  },
+  "main": "neopixel-utils.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "neopixel",
+    "ws2812"
+  ],
+  "author": "Neil Kolban",
+  "license": "ISC"
+}
