@@ -63,12 +63,12 @@ function Strip(pixelCount) {
 		"off": function() {
 			let color = [0, 0, 0];
 			for (let i=0; i<this.pixelCount; i++) {
-				setPixelColor(i, color);
+				this.setPixelColor(i, color);
 			}
 		},
 		"on": function(color) {
 			for (let i=0; i<this.pixelCount; i++) {
-				setPixelColor(i, color);
+				this.setPixelColor(i, color);
 			}
 		}
 	};
